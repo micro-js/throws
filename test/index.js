@@ -3,16 +3,15 @@
  */
 
 var throws = require('..')
-var assert = require('assert')
+var test = require('tape')
 
 /**
  * Tests
  */
 
-describe('throws', function () {
-  it('should work', function () {
-    assert.throws(function () {
-      throws(new Error)
-    })
-  })
+test('should do nothing', function (t) {
+  t.throws(function () {
+    throws(new Error)
+  });
+  t.end()
 })

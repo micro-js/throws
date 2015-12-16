@@ -1,12 +1,15 @@
 {
-  "name": "throws",
+  "name": "@f/throws",
   "description": "Throws its argument",
   "repository": "git://github.com/micro-js/throws.git",
   "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "2.x"
+    "tape": "^4.2.0"
   }
 }
