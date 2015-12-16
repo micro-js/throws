@@ -2,7 +2,7 @@
   "name": "throws",
   "description": "Throws its argument",
   "repository": "git://github.com/micro-js/throws.git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {},
